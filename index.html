@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bookshelf Apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <h1 class="bar__title">Bookshelf Application</h1>
+    </header>
+    <main>
+      <section class="input_bagian">
+        <form id="inputBuku">
+          <div class="input">
+            <label for="inputJudulBuku">Judul Buku :</label>
+            <input id="inputJudulBuku" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputPenulisBuku">Penulis Buku :</label>
+            <input id="inputPenulisBuku" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputTahunBuku">Tahun Penerbitan :</label>
+            <input id="inputTahunBuku" type="number" required />
+          </div>
+          <p>jika telah selesai membaca ceklis terlebih dahulu "Selesai dibaca"</p>
+          <div class="input_inline">
+            <input id="inputBukuSelesai" type="checkbox" />
+            <label for="inputBukuSelesai">Selesai dibaca</label>
+          </div>
+          <br />
+          <button id="bukusubmit" type="submit">Masukkan Buku</button>
+        </form>
+      </section>
+
+      <section class="bagian_cari">
+        <h2>Cari Buku</h2>
+        <form id="cariBuku">
+          <!-- <label for="searchJudulBuku">Judul Buku :</label> -->
+          <input id="cariJudulBuku" type="text" placeholder="Judul Buku yang Ingin Dicari"/>
+          <button id="cariSubmit" type="submit">Cari</button>
+        </form>
+      </section>
+      
+      <aside class="keterangan">
+        <section class="bagian ">
+          <h2>Belum selesai dibaca</h2>
+
+          <div class="rakkkk">
+            <div id="listBelumSelesai" class="list_buku"></div>
+          </div>
+        </section>
+        <section class="bagian">
+          <h2>Selesai dibaca</h2>
+          <div class="rakkkk">
+            <div id="listSelesai" class="list_buku">
+            <!--      <article class="item_buku">-->
+            <!--        <h3>Book Title</h3>-->
+            <!--        <p>Penulis: John Doe</p>-->
+            <!--        <p>Tahun: 2002</p>-->
+            <!--        -->
+            <!--        <div class="action">-->
+            <!--          <button class="green">Belum selesai di Baca</button>-->
+            <!--          <button class="red">Hapus buku</button>-->
+            <!--        </div>-->
+            <!--      </article>-->
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

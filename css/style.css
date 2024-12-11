@@ -1,0 +1,158 @@
+.cek{
+  border: 1px solid red;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #713d3d;
+  color: #f2f2f2;
+  margin: 0px;
+  padding: 0px;
+}
+/* judul & form */
+.bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 60px;
+  background-color: #6d787d;
+}
+.bar h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.input_bagian {
+  padding: 0px 100px;
+}
+.input_bagian form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input_bagian label {
+  font-size: 20px;
+  font-weight: 400;
+}
+.input_bagian .input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input_bagian .input label {
+  margin-bottom: 10px;
+}
+.input_bagian .input input {
+  border-radius: 30px;
+  height: 45px;
+  padding: 0px 10px;
+  border: none;
+}
+
+#bukusubmit {
+  margin: 5px 0px 30px 0px;
+  border-radius: 40px;
+  background-color: #13d523;
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-weight: 600;
+  font-size: 18px;
+}
+form input {
+  color: #000000;
+  background: rgba(245, 245, 245);
+  font-size: 20px;
+}
+/* cari buku*/
+.bagian_cari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bagian_cari h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.bagian_cari label {
+  font-size: 20px;
+}
+.bagian_cari input {
+  border-radius: 30px;
+  border: none;
+  height: 36px;
+  width: 400px;
+  margin: 10px 0px 20px 0px;
+  padding: 0px 10px;
+}
+.bagian_cari #cariSubmit {
+  border-radius: 20px;
+  background-color: #13d523;
+  border: none;
+  height: 36px;
+  width: 150px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* belum selesai & sudah selesai*/
+.keterangan{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bagian{
+  width: 50%;
+}
+.rakkkk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+
+.rakkkk .item_buku h3 {
+  font-size: 26px;
+  font-weight: 600;
+}
+.list_buku {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rakkkk .item_buku {
+  background:#6d787d;
+  box-shadow: 2px 2px 11px rgba(0, 0, 0, 4);
+  backdrop-filter: blur(140px);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  height: 100%;
+  width: 30vh;
+}
+.rakkkk .item_buku p {
+  font-size: 20px;
+}
+.rakkkk .item_buku button {
+  border-radius: 20px;
+  color: #f2f2f2;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  height: 36px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.rakkkk .item_buku .green {
+  background-color: #13d523;
+  
+}
+.rakkkk .item_buku .red {
+  background-color: #cd1919;
+}
